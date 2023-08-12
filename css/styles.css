@@ -135,6 +135,10 @@ article{
   /*background-color: #D2E9E9;*/
   background-color: #e1f7ef;
   border-radius: 5%;
+  transition: 1.5s;
+}
+.room:hover{
+  box-shadow: -1px 3px 20px #98d5c4;
 }
 
 .name{
