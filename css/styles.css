@@ -257,13 +257,16 @@ textarea.form-text{
   border: 0;
   padding: 12px 50px;
   background-color: #fff;
-  transition: 2s;
+  transition: box-shadow 2s, color 2s;
 }
 
 .submit-button:hover{
   box-shadow: inset 0 0 0 2em #47A992;
   color: #fff;
   cursor: pointer;
+}
+.submit-button:active{
+  transform: translate(0,1vh);
 }
 
 /*Map*/
