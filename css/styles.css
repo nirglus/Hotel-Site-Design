@@ -186,6 +186,10 @@ article{
   background: #fff;
   padding: 30px;
   border-radius: 5%;
+  transition: 1.5s;
+}
+.review:hover{
+  box-shadow: -1px 3px 10px #838383;
 }
 
 .review img{
