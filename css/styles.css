@@ -100,6 +100,10 @@ body {
   border-left: 6px solid #47A992;
   border-bottom: 5px solid #47A992;
   border-radius: 5%;
+  transition:1.5s;
+}
+.about-par:hover{
+  box-shadow: -1px 3px 20px #98d5c4;
 }
 article{
   display: flex;
